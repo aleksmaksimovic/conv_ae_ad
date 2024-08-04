@@ -57,10 +57,3 @@ class KolektorSDD2(Dataset):
     
 
 
-dataset=KolektorSDD2('/home/aleks/Documents/conv_ae_ad/dataset/train', train=False)
-
-
-print(len(dataset.targets))
-
-print(dataset.targets)
-
